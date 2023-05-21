@@ -1,0 +1,105 @@
+button div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.primary {
+  border: 1px solid #131599;
+  border-radius: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: #ffffff;
+  background-color: #131599;
+  font-family: "Poppins-Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  cursor: pointer;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.secondary {
+  border: 1px solid #f1efff;
+  border-radius: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: #3d43bb;
+  background-color: #f1efff;
+  font-family: "Poppins-Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  cursor: pointer;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.outlined {
+  border: 1px solid #777680;
+  border-radius: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: #14151f;
+  background-color: transparent;
+  font-family: "Poppins-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  cursor: pointer;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.ghost {
+  border: none;
+  border-radius: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: #14151f;
+  background-color: transparent;
+  font-family: "Poppins-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  cursor: pointer;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.xxs {
+  padding: 4px 12px;
+}
+
+.xs {
+  padding: 6px 14px;
+}
+
+.sm {
+  padding: 6px 16px;
+}
+
+.md {
+  padding: 8px 24px;
+}
+
+.lg {
+  padding: 12px 24px;
+}
