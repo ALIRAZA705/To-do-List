@@ -5,14 +5,14 @@ button div {
 }
 
 .primary {
-  border: 1px solid #131599;
+  border: 1px solid #264FB0;
   border-radius: 42px;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 8px;
   color: #ffffff;
-  background-color: #131599;
+  background-color: #264FB0;
   font-family: "Poppins-Medium";
   font-style: normal;
   font-weight: 500;
@@ -23,16 +23,21 @@ button div {
   white-space: nowrap;
   text-align: center;
 }
+.primary:hover{
+  background-color: #343232;
+}
+
+
 
 .secondary {
-  border: 1px solid #f1efff;
+  border: 1px solid #F25F38;
   border-radius: 42px;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 8px;
-  color: #3d43bb;
-  background-color: #f1efff;
+  color: "#fff";
+  background-color: #F25F38;
   font-family: "Poppins-Medium";
   font-style: normal;
   font-weight: 500;
@@ -42,6 +47,10 @@ button div {
   cursor: pointer;
   white-space: nowrap;
   text-align: center;
+}
+.secondary:hover{
+  background-color: #343232;
+  border: 1px solid #343232;
 }
 
 .outlined {
@@ -62,6 +71,10 @@ button div {
   cursor: pointer;
   white-space: nowrap;
   text-align: center;
+}
+.outlined:hover{
+  background-color: #26B086;
+  border: 1px solid #26B086;
 }
 
 .ghost {
